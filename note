@@ -25,7 +25,7 @@
 
 n = "Taejoon"
 
-t = "7:30 pm."
+t = "7:30 pm."  
 
 
 print("Today,", n ,"came to class at", t) 
@@ -38,8 +38,6 @@ s = 18
 n = "Taejoon"
 
 print(n + "'s birthday is on March", str(s) + "th.")
-
-
 
 
 #
