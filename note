@@ -1,1 +1,192 @@
 
+'''
+
+1. 변수 (Variable): 
+
+2. 수학 ():         +(+) -(-)
+
+3. 반복문 (loop)
+
+4. if, elif, else (조건문)
+
+5. List
+
+6. Dictionary
+
+7. Function (함수)
+
+8. Class (클래스)
+
+'''
+
+#Today, Taejoon came to the class at 7:30 pm.      (Use 2 variables and add the sentences together.)
+
+
+
+n = "Taejoon"
+
+t = "7:30 pm."
+
+
+print("Today,", n ,"came to class at", t) 
+
+
+#March 18th
+
+#Taejoon's birthday is on March 18th. 
+s = 18
+n = "Taejoon"
+
+print(n + "'s birthday is on March", str(s) + "th.")
+
+
+
+
+#
+
+print(3428/3) 
+print(8//3)
+print(893482%9)
+
+
+#3 (일반 나누기)
+#2 (몫이: 2)
+#2 (나머지: 2)
+
+
+for i in range(6):
+	print(i) #0,1,2,3,4,5
+''
+
+
+# 4,5,6,7,8,9,10,11
+
+for m in range(4,12):
+	print(m)
+
+
+#print(x)
+
+
+# 5, 8, 11, 14, 17
+
+
+#for x in range(5,18,3):
+#  print " ")
+
+
+# 19, 15, 11, 7, 3, -1
+
+for j in range(19, -2, -4):
+  print(j)
+
+
+#School's Report Card (#A, #B (75~84), #C (65~74), #P(56~64), #F)
+
+'''while True:
+	a = int(input("Enter score: "))
+
+	if a >= 85 and a <= 100:
+			print("A+")
+	elif a >= 75 and a <= 84:
+			print("B")
+	elif a >= 65 and a <= 74:
+			print("C")
+	elif a >= 56 and a <= 64:
+			print("P")
+	else:
+			print("F")'''
+
+
+
+'''
+List: []
+
+넣는거: insert (몇번째 자리에 추가할지 + 원하는 이름), append (원하는 이름이 -> 맨뒤에 추가된다)
+
+
+뺄때: pop, delete, remove
+
+pop = 원하는거 자리 숫자로 빼기
+delete = 원하는 자리 숫자로 빼기
+remove = 정확히 이름을 알면 뺼수 있다.
+
+'''
+
+fruit = ["🍋", "🍇", "🍉","🍈"]
+
+fruit.append("🍐")
+
+
+fruit.insert(3, "🍍")
+print(fruit)
+
+#🍊 🍌 🍍 🍐
+
+fruit.remove('🍍')
+print(fruit)
+
+fruit.pop(-3)
+print(fruit)
+
+
+del fruit[3]
+print(fruit)
+
+fruit = ["🍋", "🍇", "🍉","🍈"]
+
+fruit.pop(-3)
+print(fruit)
+
+#sort, sorted, len, count, index, reverse, min, max, sum, clear, 
+
+
+nums = [5,6,7,3,4,1,2,4,3,202,23111]
+alpha = ["c","z","i", "s", "u","b"]
+
+
+print(sorted(nums))
+print(nums)
+
+
+import random
+nums = [5,6,7,3,4,1,2,4,3,202,23111]
+random.shuffle(nums)
+print(nums)
+''
+import random
+
+students = ['Taejoon', 'Halim', 'A','B']
+winner = random.choice(students)
+print(f"오늘의 당첨자는....군득.ㄴ...: 두군: {winner}")
+
+
+
+#len () = 
+nums = [1,2,2,2,2,3,2,22,3,2,3,3,3,3,3,1,3,2,314,5657,8]
+
+print(len(nums)) #리스트 안에 숫자가 총 몇게 있는지
+
+#count() = 같은 숫자가 총 몇게인지
+print(nums.count(3))
+
+counts = Counter(nums)
+print(counts)
+
+
+
+
+
+t,n= map (int,input().split())
+d = t * n
+print(d
+
+
+
+
+)
+
+
+
+
+ map(int, input().split()
